@@ -28,13 +28,13 @@ body {
 
 .container,
 .greeting-container h1 {
-  color: #a8bcd0;
+  color: #b32a31;
 }
 
 .btn {
   background-color: #a8bcd0;
   color: white;
-  border: 1px solid #a8bcd0;
+  border: 1px solid #993e3e;
   padding: 10px 15px;
   border-radius: 5px;
   font-size: 1.2rem;
@@ -42,6 +42,6 @@ body {
 }
 
 .link-to {
-  color: #546372;
+  color: #084a8d;
   text-decoration: none;
 }

@@ -7,7 +7,7 @@ class V1::MessagesController < ApplicationController
   def create
     @message = Message.new(title: title)
 
-    if @message.save 
+    if @message.save
       render json: @message, status: :created, location: @message
     else
       render json: @message.errors, status: :unprocessable_entity
